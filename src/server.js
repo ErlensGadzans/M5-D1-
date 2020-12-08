@@ -4,7 +4,7 @@ const usersRoutes = require("./users");
 
 const server = express();
 
-const port = 3001;
+const port = 3009;
 
 server.use(cors());
 server.use(express.json());
