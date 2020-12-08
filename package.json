@@ -1,0 +1,29 @@
+{
+  "name": "M5-D1-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "kill $(lsof -t -i:3001) && nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErlensGadzans/M5-D1-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErlensGadzans/M5-D1-/issues"
+  },
+  "homepage": "https://github.com/ErlensGadzans/M5-D1-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uniqid": "^5.2.0"
+  }
+}
